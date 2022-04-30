@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
  * 그렇기에 //@Component 주석처리 해주었다.
  */
 @Slf4j
-//@Component
+@Component
 public class WebServerCustomizer implements WebServerFactoryCustomizer<ConfigurableWebServerFactory> {
 
     @Override
